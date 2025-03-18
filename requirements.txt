@@ -4,8 +4,5 @@ scikit-learn
 python-dotenv
 loguru
 pyarrow
-<<<<<<< HEAD
-=======
 uvicorn
 fastapi
->>>>>>> 0ca74edb875d9fae755daf9338bdb7599589a225
