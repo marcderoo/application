@@ -28,4 +28,5 @@ jobs:
         run: |
           pylint src --fail-under=6
       - name: Test Python code
-        run: python main.py
+        run: python train.py
+

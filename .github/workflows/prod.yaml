@@ -28,4 +28,8 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
+<<<<<<< HEAD
           tags: votre_compte_docker_hub/application:latest
+=======
+          tags: linogaliana/application:latest
+>>>>>>> 0ca74edb875d9fae755daf9338bdb7599589a225

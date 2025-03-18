@@ -32,9 +32,15 @@ def split_train_test(data, test_size, train_path="train.csv", test_path="test.cs
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size)
 
     if train_path:
+<<<<<<< HEAD
         pd.concat([X_train, y_train], axis = 1).to_parquet(train_path)
     if test_path:
         pd.concat([X_test, y_test], axis = 1).to_parquet(test_path)
+=======
+        pd.concat([X_train, y_train]).to_parquet(train_path)
+    if test_path:
+        pd.concat([X_test, y_test]).to_parquet(test_path)
+>>>>>>> 0ca74edb875d9fae755daf9338bdb7599589a225
 
     return X_train, X_test, y_train, y_test
 
